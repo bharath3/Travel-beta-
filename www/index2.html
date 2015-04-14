@@ -1,0 +1,156 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Power Grid a Industrial Category Flat Responsive Bootstarp WebSite Template | Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Power-grid Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&sensor=false";
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script>
+</head>
+<body>
+<!---->
+<!---->
+<div class="header">
+	 <div class="container">
+		 <div class="logo">
+			 <a href="index.html"><img src="images/logo1.png" alt=""/></a>
+		 </div>	
+		 <div class="top-menu">	 
+	         <span class="menu"></span>
+			 <ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="http://115.119.117.86:8208/home/muraai/newlogin.htm">Login</a></li>
+				<li><a href="project.html">Projects</a></li>				 
+				<li><a href="404.html">Services</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		     </ul> 
+	      </div>
+		  <!-- script-for-menu -->
+		 <script>					
+					$("span.menu").click(function(){
+						$(".top-menu ul").slideToggle("slow" , function(){
+						});
+					});
+		 </script>
+		 <!-- script-for-menu -->	
+		 <div class="clearfix"></div>
+	 </div>
+</div>	
+<!---->
+
+ <script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+        manualControls: '#slider3-pager',
+      });
+    });
+  </script>   
+    <div class="slider">
+	    <!-- Slideshow 3 -->
+	    <ul class="rslides" id="slider">
+		  <li><img src="images/8.jpg" alt="">
+	      	<div class="caption">
+	      		<h1>Sterlite</h1>
+	      	</div>
+	      </li>
+	      <li><img src="images/1.jpg" alt="">
+	      	<div class="caption">
+	      		
+	      	</div>
+	      </li>	      
+	      <li><img src="images/4.jpg" alt="">
+	      	<div class="caption">
+	      		
+	      	</div>
+	      </li>
+	    </ul>
+	    <!-- Slideshow 3 Pager --></br></br>
+	    <ul id="slider3-pager">
+	      <li><a href="#"><img src="images/33.jpg" alt=""></a></li>
+	      <li><a href="#"><img src="images/11.jpg" alt=""></a></li>
+	      <li><a href="#"><img src="images/22.jpg" alt=""></a></li>
+	    </ul>    
+</div>	
+<!---banner--->
+<button onclick="getLocation()">try it</button>
+<div class="mapholder">
+	 
+					 </div></a>
+				</div>
+				
+				
+
+				</div>
+				<div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+
+
+<!---->
+
+<!---->
+		 
+<!----- news-letter ----->
+
+<!---->
+
+<!---->
+ </body>
+ </html>
